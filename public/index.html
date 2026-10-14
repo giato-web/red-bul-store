@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090909"><title>RED BUL | المتجر الرقمي</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="/"><span class="brand-mark">R</span><span id="storeName">RED <b>BUL</b><small>متجرك الرقمي</small></span></a><nav><a href="#products">المنتجات</a><a href="#how">طريقة الطلب</a><a href="/admin">لوحة الإدارة</a></nav><button class="cart-btn" id="cartOpen">السلة <span id="cartCount">0</span></button></header>
+<main>
+<section class="hero"><div class="hero-copy"><span class="eyebrow"><i></i> متجر المنتجات الرقمية</span><h1>كل ما تحتاجه،<br><em>في مكان واحد.</em></h1><p>منتجات رقمية ورخص تفعيل واشتراكات مصرح ببيعها، بتجربة شراء بسيطة وآمنة.</p><div class="hero-actions"><a class="btn primary" href="#products">تصفح المنتجات <span>←</span></a><a class="btn ghost" href="#how">كيف أطلب؟</a></div><div class="trust"><span>✓ منتجات رقمية</span><span>✓ طلبات منظمة</span><span>✓ دعم العملاء</span></div></div><div class="hero-art"><div class="orbit orbit1"></div><div class="orbit orbit2"></div><div class="red-cube">RB</div><div class="float-card"><span class="dot"></span><div><b>RED BUL</b><small>Digital store</small></div><strong>01</strong></div></div></section>
+<section class="section" id="products"><div class="section-heading"><div><span class="eyebrow">اختياراتنا</span><h2>أحدث المنتجات</h2><p>اختر المنتج المناسب لك وأضفه إلى السلة.</p></div><div class="search"><span>⌕</span><input id="search" placeholder="ابحث عن منتج..."></div></div><div id="productsGrid" class="products-grid"><div class="loading">جاري تحميل المنتجات…</div></div><div id="emptyState" class="empty hidden">لا توجد منتجات حاليًا. يرجى العودة لاحقًا.</div></section>
+<section class="how section" id="how"><div><span class="eyebrow">طريقة سهلة</span><h2>اطلب في ثلاث خطوات</h2><p>اختر منتجك، أدخل بريدك الإلكتروني، ثم اتبع تعليمات الدفع المعروضة بعد إرسال الطلب.</p></div><div class="steps"><article><span>01</span><h3>اختر المنتج</h3><p>تصفح المنتجات والأسعار والتفاصيل.</p></article><article><span>02</span><h3>أرسل الطلب</h3><p>أدخل بريدًا صحيحًا وحدد طريقة الدفع.</p></article><article><span>03</span><h3>تابع طلبك</h3><p>يؤكد المتجر الدفع ثم يسلم المنتج المصرح ببيعه.</p></article></div></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">R</span><span>RED <b>BUL</b></span></a><span>© <span id="year"></span> RED BUL. جميع الحقوق محفوظة.</span><span>متجر مستقل للمنتجات الرقمية</span></footer>
+<div id="cartPanel" class="drawer hidden"><div class="drawer-head"><h2>سلة المشتريات</h2><button id="cartClose" class="icon-btn">✕</button></div><div id="cartItems"></div><div class="cart-total"><span>الإجمالي</span><b id="cartTotal">$0.00</b></div><form id="checkoutForm" class="checkout-form"><label>البريد الإلكتروني<input type="email" id="email" required placeholder="you@example.com"></label><label>طريقة الدفع<select id="paymentMethod"><option value="manual">تحويل / دفع يدوي</option><option value="online">دفع إلكتروني</option></select></label><button class="btn primary full" type="submit">إرسال الطلب</button><p class="fine">لا تدخل كلمات مرور أو بيانات حساسة في هذا النموذج.</p></form><div id="checkoutMessage" class="notice hidden"></div></div><div id="overlay" class="overlay hidden"></div>
+<script src="/app.js"></script>
+</body></html>
